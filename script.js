@@ -103,7 +103,7 @@ const analysis = async(t = type, val) => {
             for (let i = 1; i <= val; i++) {
                 let rand = Math.floor(Math.random()*650000000);
                 let imgurl = `https://stickershop.line-scdn.net/stickershop/v1/sticker/${rand}/android/sticker.png`;
-                await fetchImage(imgurl);
+                fetchImage(imgurl);
             }
         }
     return val;

@@ -101,6 +101,16 @@ body {
         }
     }
 }
+.err {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background: whitesmoke;
+    border: 2px solid gray;
+    border-radius: 10px;
+    outline: 1px solid lightgray;
+
+}
 input[type = "text"], input[type = "number"] {
     display: block;
     width: 300px;
